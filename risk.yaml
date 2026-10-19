@@ -1,0 +1,15 @@
+max_single_position_pct: 0.25
+max_sector_exposure_pct: 0.40
+min_cash_pct: 0.02
+max_portfolio_positions: 15
+max_turnover_pct: 0.35
+no_shorting: true
+no_margin: true
+no_options: true
+allow_fractional_shares: true
+stop_atr_multiplier:
+  high_beta: 2.5
+  core: 2.0
+circuit_breakers:
+  daily_drawdown_pct: 8.0
+  peak_drawdown_pct: 15.0

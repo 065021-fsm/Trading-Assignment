@@ -1,0 +1,9 @@
+provider: ollama_local
+local_url: http://localhost:11434
+cloud_url: https://ollama.com
+fallback_to_local: true
+models:
+  fast: llama3.1:8b
+  strong: llama3.1:8b
+  local_default: llama3.1:8b
+  cloud_default: llama3.1:8b

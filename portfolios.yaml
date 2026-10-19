@@ -1,0 +1,56 @@
+capital_per_student: 100000
+portfolios:
+  bhavya_goel:
+    display: "Bhavya Goel"
+    cash_reserve: 0.05
+    holdings:
+      - {symbol: TSLA, type: high_beta, weight: 0.17, sector: "Autos/EV"}
+      - {symbol: COIN, type: high_beta, weight: 0.16, sector: "Crypto/Financials"}
+      - {symbol: FCX, type: high_beta, weight: 0.14, sector: "Materials (Copper)"}
+      - {symbol: UBER, type: high_beta, weight: 0.13, sector: "Consumer Discretionary"}
+      - {symbol: AMZN, type: core, weight: 0.08, sector: "Consumer Discretionary"}
+      - {symbol: AAPL, type: core, weight: 0.07, sector: "Technology"}
+      - {symbol: BAC, type: core, weight: 0.04, sector: "Financials"}
+      - {symbol: LLY, type: core, weight: 0.04, sector: "Healthcare"}
+      - {symbol: CVX, type: core, weight: 0.04, sector: "Energy"}
+      - {symbol: HON, type: core, weight: 0.04, sector: "Industrials"}
+      - {symbol: KO, type: core, weight: 0.02, sector: "Consumer Staples"}
+      - {symbol: DUK, type: core, weight: 0.02, sector: "Utilities"}
+  bhavya_gupta:
+    display: "Bhavya Gupta"
+    cash_reserve: 0.05
+    holdings:
+      - {symbol: NVDA, type: high_beta, weight: 0.17, sector: "Semiconductors"}
+      - {symbol: AMD, type: high_beta, weight: 0.15, sector: "Semiconductors"}
+      - {symbol: MU, type: high_beta, weight: 0.14, sector: "Semiconductors"}
+      - {symbol: PLTR, type: high_beta, weight: 0.14, sector: "Software/AI"}
+      - {symbol: MSFT, type: core, weight: 0.08, sector: "Technology"}
+      - {symbol: JPM, type: core, weight: 0.05, sector: "Financials"}
+      - {symbol: CAT, type: core, weight: 0.05, sector: "Industrials"}
+      - {symbol: XOM, type: core, weight: 0.04, sector: "Energy"}
+      - {symbol: UNH, type: core, weight: 0.04, sector: "Healthcare"}
+      - {symbol: PG, type: core, weight: 0.03, sector: "Consumer Staples"}
+      - {symbol: NEE, type: core, weight: 0.03, sector: "Utilities"}
+      - {symbol: LIN, type: core, weight: 0.03, sector: "Materials"}
+  manya_arora:
+    display: "Manya Arora"
+    cash_reserve: 0.05
+    holdings:
+      - {symbol: AVGO, type: high_beta, weight: 0.18, sector: "Semiconductors"}
+      - {symbol: LRCX, type: high_beta, weight: 0.16, sector: "Semi Equipment"}
+      - {symbol: DVN, type: high_beta, weight: 0.14, sector: "Energy (E&P)"}
+      - {symbol: WYNN, type: high_beta, weight: 0.12, sector: "Casinos/Leisure"}
+      - {symbol: GOOGL, type: core, weight: 0.08, sector: "Communication Services"}
+      - {symbol: GE, type: core, weight: 0.06, sector: "Industrials"}
+      - {symbol: V, type: core, weight: 0.05, sector: "Financials"}
+      - {symbol: COST, type: core, weight: 0.04, sector: "Consumer Staples"}
+      - {symbol: WMT, type: core, weight: 0.04, sector: "Consumer Staples"}
+      - {symbol: JNJ, type: core, weight: 0.03, sector: "Healthcare"}
+      - {symbol: AMT, type: core, weight: 0.03, sector: "Real Estate"}
+      - {symbol: SO, type: core, weight: 0.02, sector: "Utilities"}
+common:
+  display: "Group 8 Common Portfolio"
+  definition: "Read-only consolidation of the three student portfolios"
+agent_rules:
+  max_positions_per_student: 15
+  min_high_beta_name_share: 0.30

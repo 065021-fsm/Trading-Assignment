@@ -1,0 +1,16 @@
+enabled:
+  - ema20
+  - ema50
+  - ema200
+  - rsi
+  - macd
+  - roc
+  - atr
+  - bollinger_width
+  - bbp
+  - zscore
+  - returns_1d
+  - returns_5d
+  - returns_20d
+short_timeframe: 15m
+long_timeframe: 1d
